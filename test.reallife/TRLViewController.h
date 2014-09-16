@@ -10,4 +10,10 @@
 
 @interface TRLViewController : UIViewController
 
+@property (nonatomic,strong) IBOutlet UILabel *fbStatus;
+@property (nonatomic,strong) IBOutlet UIButton *connect;
+
+
+- (IBAction)updateFacebook;
+
 @end
